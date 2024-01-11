@@ -11501,6 +11501,10 @@ pre .code {
 .footer {
   background: #17263C;
 }
+.contacts {
+  background: #07528d;
+  color: #fff;
+}
 
 .header {
   position: relative;
@@ -11681,4 +11685,35 @@ pre .code {
   background: #0275d8;
   display: block;
   margin-top: 10px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  border-radius: 100%;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+ul.social_icon li a {
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  float: left;
+  border-radius: 100%;
+}
+ul.social_icon li i {
+  color: #000 !important;
+  line-height:35px;
+}
+ul.social_icon li {
+  float: left;
+  margin: 0 5px;
+ list-style-type: none;
 }
